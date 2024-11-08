@@ -7,7 +7,7 @@ const Name = () => {
   return (
     <div style={{ marginTop: "30px" }}>
       <h2 className="is-size-4">
-        <strong>Name</strong>: {user.name || "Not provided"}
+        <strong>Name</strong>: {user.name || "NO Name yet"}
       </h2>
     </div>
   );

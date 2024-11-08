@@ -7,7 +7,7 @@ const Location = () => {
   return (
     <div style={{ marginTop: "30px" }}>
       <h2 className="is-size-4">
-        <strong>Location</strong>: {user.location || "Not provided"}
+        <strong>Location</strong>: {user.location || "No Location Yet"}
       </h2>
     </div>
   );
